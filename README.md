@@ -87,8 +87,8 @@ clone the example directory and run the example
 ------|-------------|----------|-----------
 style | container style (容器样式) | {} | style
 expand | controls show or hide the content (控制展开/收起) | undefined | bool
-animationType | the animationType prop controls the show or hide action's animates (展开/收起时的动画效果)| fade | 'fade','slide','none' 
-duration | animation duration in milliseconds (动画持续时间，毫秒) | 300 | string
+animationType | the animationType prop controls the show or hide action's animates (展开/收起时的动画效果)| fade | string, one of 'fade','slide','none' 
+duration | animation duration in milliseconds (动画持续时间，毫秒) | 300 | number
 
 
 ## License
