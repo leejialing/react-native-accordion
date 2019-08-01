@@ -1,6 +1,6 @@
 {
   "name": "@jialing/react-native-accordion",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a simple react native accordion component",
   "main": "index.js",
   "scripts": {

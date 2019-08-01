@@ -39,14 +39,16 @@ export default class Accordion extends React.Component {
   render () {
     const {expand, style, children, animationType} = this.props
     return (
-      <View style={[style, {overflow: 'hidden', height: expand ? style.height : 0}]}>
-        {
-          animationType === 'slide'
-            ? <View style={[styles.slider, {position: expand ? undefined : 'absolute'}]}>
-              {children}
-            </View>
-            : (expand && children)
-        }
+      <View style={{overflow: 'hidden', height: expand ? undefined : 0}}>
+        <View style={style}>
+          {
+            animationType === 'slide'
+              ? <View style={[styles.slider, {position: expand ? undefined : 'absolute'}]}>
+                {children}
+              </View>
+              : (expand && children)
+          }
+        </View>
       </View>
     )
   }
