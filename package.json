@@ -1,5 +1,5 @@
 {
-  "name": "react-native-accordion",
+  "name": "@jialing/react-native-accordion",
   "version": "1.0.0",
   "description": "a simple react native accordion component",
   "main": "index.js",
@@ -14,7 +14,9 @@
     "react",
     "react-native",
     "accordion",
-    "component"
+    "component",
+    "expand",
+    "collapsible"
   ],
   "author": "jialing Lee",
   "license": "MIT",
