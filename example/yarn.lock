@@ -840,6 +840,11 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
+"@jialing/react-native-accordion@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@jialing/react-native-accordion/-/react-native-accordion-1.0.2.tgz#917d012ab3cef4cbeb739a00ad4f97009dee4bcb"
+  integrity sha512-eqLQP8WazoCw45GZ3dCLUmHSltLRGKmhPGeUnCl8C7gYlRpCYh2/G9JK9QuNZPQHgqlkiUMn4Q29HoymJjvSJg==
+
 "@react-native-community/cli-platform-android@^2.0.1", "@react-native-community/cli-platform-android@^2.7.0":
   version "2.7.0"
   resolved "https://registry.npm.taobao.org/@react-native-community/cli-platform-android/download/@react-native-community/cli-platform-android-2.7.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40react-native-community%2Fcli-platform-android%2Fdownload%2F%40react-native-community%2Fcli-platform-android-2.7.0.tgz#511d1db12c52d29cb87b6e4e84d63030ffa2c38d"

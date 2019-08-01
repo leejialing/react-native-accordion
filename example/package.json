@@ -8,6 +8,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@jialing/react-native-accordion": "^1.0.2",
     "react": "16.8.6",
     "react-native": "0.60.4"
   },
@@ -19,6 +20,7 @@
     "eslint": "^6.1.0",
     "jest": "^24.8.0",
     "metro-react-native-babel-preset": "^0.55.0",
+    "prop-types": "^15.7.2",
     "react-test-renderer": "16.8.6"
   },
   "jest": {
