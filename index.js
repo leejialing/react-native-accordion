@@ -15,7 +15,7 @@ export default class Accordion extends React.Component {
     style: ViewPropTypes.style,
     children: PropTypes.any,
     expand: PropTypes.bool,
-    animationType: PropTypes.oneOf('slide', 'fade', 'none'),
+    animationType: PropTypes.oneOf(['slide', 'fade', 'none']),
     duration: PropTypes.number
   }
 
