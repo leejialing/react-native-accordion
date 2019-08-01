@@ -7,18 +7,7 @@
  */
 
 import React, {Fragment} from 'react'
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  View,
-  Text,
-  Image,
-  YellowBox,
-  TouchableOpacity
-} from 'react-native'
-import Accordion from '@jialing/react-native-accordion'
+import {Image, SafeAreaView, ScrollView, StatusBar, StyleSheet, View, YellowBox} from 'react-native'
 import ListItem from './src/component/ListItem'
 import Simple from './src/Simple'
 
