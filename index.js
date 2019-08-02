@@ -15,13 +15,13 @@ export default class Accordion extends React.Component {
     style: ViewPropTypes.style,
     children: PropTypes.any,
     expand: PropTypes.bool,
-    animationType: PropTypes.oneOf(['slide', 'fade', 'none']),
+    animationType: PropTypes.oneOf(['default', 'slide', 'none']),
     duration: PropTypes.number
   }
 
   static defaultProps = {
     style: {},
-    animationType: 'fade',
+    animationType: 'default',
     duration: 300
   }
 
@@ -46,7 +46,7 @@ export default class Accordion extends React.Component {
               ? <View style={[styles.slider, {position: expand ? undefined : 'absolute'}]}>
                 {children}
               </View>
-              : (expand && children)
+              : children
           }
         </View>
       </View>
