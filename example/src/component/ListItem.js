@@ -15,7 +15,7 @@ export default class ListItem extends React.Component {
     title: PropTypes.string,
     titleStyle: Text.propTypes.style,
     titleContainerStyle: ViewPropTypes.style,
-    animationType: PropTypes.oneOf(['slide', 'fade', 'none']),
+    animationType: PropTypes.oneOf(['default', 'slide', 'none']),
     duration: PropTypes.number
   }
 

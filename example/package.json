@@ -8,7 +8,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@jialing/react-native-accordion": "^1.0.2",
+    "@jialing/react-native-accordion": "^1.0.3",
     "react": "16.8.6",
     "react-native": "0.60.4"
   },

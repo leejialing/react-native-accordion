@@ -32,7 +32,7 @@ class App extends React.Component {
               <ListItem
                 title='this is a fade accordion item'
                 titleContainerStyle={styles.titleContainer}
-                animationType='fade'
+                animationType='default'
               >
                 <View style={styles.content}>
                   <Image
