@@ -78,8 +78,8 @@ const styles = StyleSheet.create({
 
 ## Example
 clone the example directory and run the example
-* ```git clone https://github.com/z372183629/react-native-accordion/tree/master/example```
-* ```yarn install```
+* ```git clone https://github.com/z372183629/react-native-accordion.git```
+* ```cd example && yarn install```
 * ```react-native run-ios```
 
 ## Props
